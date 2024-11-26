@@ -1,0 +1,6 @@
+function calcular(valor, quantidade, desconto = 0){
+    return (valor * quantidade) - (valor * quantidade *desconto/100)
+}
+
+let retorno =  calcular(10,2)
+console.log(retorno)

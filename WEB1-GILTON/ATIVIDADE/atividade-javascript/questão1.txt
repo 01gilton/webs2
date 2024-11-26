@@ -1,0 +1,5 @@
+let valor = Number(prompt("Digite um valor a ser convertido para moeda americana: "));
+let dolar = 5.69;
+let resultado = valor / dolar
+
+console.log("Seu saldo em dolar fica ;"+ resultado.toFixed(2) + " dólares" );

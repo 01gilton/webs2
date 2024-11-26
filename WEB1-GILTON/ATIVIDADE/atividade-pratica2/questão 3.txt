@@ -1,0 +1,8 @@
+function fatoria(numero){
+    let resultado = 1;
+    for(let multiplicador=1; multiplicador<= numero; multiplicador ++){
+        resultado*= multiplicador
+    }
+    return resultado;
+}
+console.log(fatoria(10));

@@ -1,0 +1,4 @@
+let cm = 2.54;
+let valor_pol = Number(prompt("Qual o valor em polegadas ? "));
+let convertor = valor_pol * cm;
+console.log(" A medida em centimetros fica "+ convertor.toFixed(2));

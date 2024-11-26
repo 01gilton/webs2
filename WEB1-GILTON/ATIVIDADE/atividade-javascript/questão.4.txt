@@ -1,0 +1,4 @@
+let raio = Number(prompt(" Qual a medida do raio ? "));
+let pi = 3.14;
+let perimetro = 2 * pi * raio;
+console.log(" O perimetro é " + perimetro.toFixed(2) );

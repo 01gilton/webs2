@@ -1,0 +1,6 @@
+//const numeros = [1,1,2,2,3,3,4,4]
+
+function retornaUnico(valores){
+    return new Set(valores).values();
+}
+console.log(retornaUnico([1,1,2,2,3,3,4,4,]))

@@ -1,0 +1,4 @@
+let hora_aula = Number(prompt(" Qual o valor da sua hora aula ?"));
+let hora_trabalhada = Number(prompt(" Quantas horas trabalhou ? "));
+let calculo = hora_aula * hora_trabalhada;
+console.log(" Seu salário ficou " + calculo);

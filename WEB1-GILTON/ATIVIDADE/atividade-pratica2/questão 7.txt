@@ -1,0 +1,17 @@
+
+
+const frutas = [];
+
+while (true) {
+   
+    const fruta = prompt("Digite o nome de uma fruta (ou 'fim' para encerrar):");
+    
+    if (fruta.toLowerCase() === 'fim') {
+        break;
+    }
+    
+    frutas.push(fruta);
+}
+
+console.log("Frutas: " + frutas );
+
